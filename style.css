@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(199, 153, 153);
+    margin: 0;
+}
+.nav-group {
+    display: flex;
+    background-color: rgb(103, 54, 54);
+    color: white;
+    align-items: center;
+    margin-top: 0;
+}
+#logo {
+    width: 90px;
+}
+.nav-component {
+}
+#company-name {
+    font-family: 'Princess Sofia', cursive;
+}
+nav {
+    background-color: rgb(103, 54, 54);
+    flex: 5;
+    margin-left: auto;
+}
+a {
+    color: white;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 20px;
+}
+li {
+    display: inline;
+}
+main {
+    display: flex;
+}
+section {
+    display: flex;
+    column-gap: 30px;
+    align-items: stretch;
+}
+#pastry-wrapper {
+    flex: 2;
+    margin: 50px 10px 80px 20px;
+    background-color: rgba(255, 255, 255, 0.26);
+    display: flex;
+    flex-direction: column;
+}
+.indent {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#title {
+    border-bottom: 1px rgba(0,0,0,.3) solid;
+}
+#pastry-name {
+}
+#pastry-description {
+}
+#pastry-image-wrapper {
+    flex: 3;
+    justify-self: end;
+}
+#pastry-img {
+    max-width: 85%;
+}
